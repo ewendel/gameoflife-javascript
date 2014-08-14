@@ -1,0 +1,21 @@
+body {
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	display: flex;
+}
+
+.app {
+	width: 1000px;
+}
+
+.cell {
+	float: left;
+	height: 10px;
+	width: 10px;
+	-webkit-transition: all 0.1s;
+}
+
+.alive {
+	background: orange;
+	-webkit-transition: all 0.1s;
+}
